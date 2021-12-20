@@ -1,5 +1,5 @@
 {% set name = "drf-spectacular" %}
-{% set version = "0.21.0" %}
+{% set version = "0.21.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/drf-spectacular-{{ version }}.tar.gz
-  sha256: 08357eefd71359ac522f3006c979f845ba09ec53638b84b8f9e920fa208dca92
+  sha256: e61d0273c370a9f14944a5072c312eee5407becdfce80ecbe81ef687ccc9365e
 
 build:
   number: 0

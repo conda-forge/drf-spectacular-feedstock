@@ -5,7 +5,7 @@ Home: https://github.com/tfranzel/drf-spectacular
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/drf-spectacular-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/drf-spectacular-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sane and flexible OpenAPI 3 schema generation for Django REST framework
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13951&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/drf-spectacular-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13951&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/drf-spectacular-feedstock?branchName=main">
       </a>
     </td>
   </tr>

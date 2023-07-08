@@ -17,16 +17,17 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python >=3.6
   run:
-    - django >=2.2
-    - djangorestframework >=3.10
-    - inflection >=0.3.1
-    - jsonschema >=2.6.0
     - python >=3.6
-    - pyyaml >=5.1
+    - django >=2.2
+    - djangorestframework >=3.10.3
     - uritemplate >=2.0.0
+    - pyyaml >=5.1
+    - jsonschema >=2.6.0
+    - inflection >=0.3.1
+    - typing-extensions
 
 test:
   imports:

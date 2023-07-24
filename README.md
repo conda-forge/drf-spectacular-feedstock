@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@MichelML](https://github.com/MichelML/)
+* [@rxm7706](https://github.com/rxm7706/)
 

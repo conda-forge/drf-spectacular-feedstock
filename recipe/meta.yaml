@@ -1,26 +1,26 @@
 {% set name = "drf-spectacular" %}
-{% set version = "0.27.2" %}
-
+{% set version = "0.28.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/drf-spectacular-{{ version }}.tar.gz
-  sha256: a199492f2163c4101055075ebdbb037d59c6e0030692fc83a1a8c0fc65929981
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/drf_spectacular-{{ version }}.tar.gz
+  sha256: 2c778a47a40ab2f5078a7c42e82baba07397bb35b074ae4680721b2805943061
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - django >=2.2
     - djangorestframework >=3.10.3
     - uritemplate >=2.0.0
@@ -35,6 +35,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
